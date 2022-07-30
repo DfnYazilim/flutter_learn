@@ -8,7 +8,7 @@ import 'package:flutter_learn/helpers/token.dart';
 
 
 class Api {
-  String baseUrl = "http://172.20.10.2:6032/api/";
+  String baseUrl = "http://192.168.100.102:6032/api/";
   var dio = Dio();
   String? token;
   setHeaderWithOutToken() {
